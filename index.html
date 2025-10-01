@@ -1,0 +1,135 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Clash Royale Starter Guide — Home</title>
+    <meta name="description" content="Beginner-friendly Clash Royale guide: mechanics, decks, and strategy for new players.">
+    <meta name="author" content="Clash Royale Starter Guide">
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header>
+      <div class="container">
+        <h1 class="site-title">Clash Royale Starter Guide</h1>
+        <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">☰<span class="visually-hidden">Menu</span></button>
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+          <ul class="nav">
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="mechanics.html">Mechanics</a></li>
+            <li><a href="decks.html">Decks</a></li>
+            <li><a href="strategy.html">Strategy</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero container">
+        <div class="hero__text">
+          <h2>Welcome to Clash Royale</h2>
+          <p>This guide helps new and returning players understand the fundamentals of Clash Royale: core mechanics, starter decks, and simple match strategies you can use right away.</p>
+          <p class="muted">Use the navigation above to explore the Mechanics, Decks, and Strategy sections.</p>
+        </div>
+
+        <figure class="hero__media">
+          <img src="img/home-screenshot.png" alt="Clash Royale gameplay screenshot">
+          <figcaption class="muted"></figcaption>
+        </figure>
+      </section>
+
+      <section class="container">
+        <h3>Compare Starter Deck Archetypes</h3>
+        <p>Below is a simple comparison table with average elixir, playstyle, and a short tip for each archetype.</p>
+
+        <table class="deck-table" aria-describedby="deck-desc">
+          <caption id="deck-desc">Comparison of three common starter archetypes</caption>
+          <thead>
+            <tr>
+              <th>Archetype</th>
+              <th>Avg Elixir</th>
+              <th>Playstyle / Tip</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Beatdown</td>
+              <td>5.0</td>
+              <td>Build a strong push behind a tank; protect your win condition.</td>
+            </tr>
+            <tr>
+              <td>Control</td>
+              <td>3.8</td>
+              <td>React and punish; trade efficiently and gain tempo.</td>
+            </tr>
+            <tr>
+              <td>Cycle</td>
+              <td>2.8</td>
+              <td>Fast rotation to your win condition; apply constant pressure.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="container">
+        <h3>Watch: Beginner Strategy Clip</h3>
+        <p>This short clip shows an example of Clash Royale gameplay in action</p>
+
+        <video controls width="720" preload="metadata" aria-label="Beginner strategy clip">
+          <source src="media/intro-small.mp4" type="video/mp4">
+          Your browser does not support the video tag. You can also view example strategy videos on the official channel: <a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a>.
+        </video>
+      </section>
+
+      <section class="container">
+        <h3>Contact / Feedback</h3>
+        <p>Send feedback or questions using the form below.</p>
+
+        <form action="#" method="post" aria-label="Contact form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+
+          <div class="form-row">
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic">
+              <option>Mechanics</option>
+              <option>Decks</option>
+              <option>Strategy</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+
+        <p class="muted">Contact via profile: <a href="contact.html">Contact page </a> · External resource: <a href="https://www.asu.edu" target="_blank" rel="noopener">ASU</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-row">
+        <p>© 2025 Clash Royale Starter Guide • <span id="contact-email">markocpc9@gmail.com</span></p>
+        <button id="copy-email" class="btn" type="button" aria-label="Copy contact email">Copy email</button>
+        <p class="muted">External: <a href="https://clashroyale.com" target="_blank" rel="noopener">Official Clash Royale</a></p>
+      </div>
+      <script src="js/main.js" defer></script>
+    </footer>
+  </body>
+</html>
